@@ -86,7 +86,7 @@ class _AboutPageState extends State<AboutPage> {
                                           borderRadius: BorderRadius.only(
                                               topLeft: Radius.circular(28),
                                               topRight: Radius.circular(28))),
-                                      title: Text("Changelog"),
+                                      title: Text("changelog".tr()),
                                       backgroundColor:
                                           colorTheme.surfaceContainerLow,
                                       scrolledUnderElevation: 1,
@@ -138,7 +138,7 @@ class _AboutPageState extends State<AboutPage> {
                           iconAlignment: IconAlignment.end,
                           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                         ),
-                        child: Text("What's new",
+                        child: Text("whats_new".tr(),
                             style: TextStyle(fontWeight: FontWeight.w700)),
                       ),
                     ],
@@ -217,8 +217,8 @@ class _AboutPageState extends State<AboutPage> {
                 radius: 23,
                 child: Icon(Symbols.apps),
               ),
-              title: Text("More apps"),
-              subtitle: Text("View"),
+              title: Text("more_apps".tr()),
+              subtitle: Text("view".tr()),
               onTap: () {
                 showModalBottomSheet(
                   context: context,
@@ -287,7 +287,7 @@ class _AboutPageState extends State<AboutPage> {
                                 onPressed: () {
                                   Navigator.of(context).pop();
                                 },
-                                child: Text("Close"),
+                                child: Text("close".tr()),
                               ),
                             ),
                           ),
@@ -322,7 +322,7 @@ class _AboutPageState extends State<AboutPage> {
                       pageBuilder: (context, animation, secondaryAnimation) {
                         return LicensePage(
                           applicationName: 'WeatherMaster',
-                          applicationVersion: 'v2.6.3 (F)',
+                          applicationVersion: 'v2.6.4 (F)',
                           applicationIcon: Container(
                             clipBehavior: Clip.hardEdge,
                             margin: const EdgeInsets.only(bottom: 16, top: 16),
@@ -522,7 +522,7 @@ class CheckUpdateButton extends StatefulWidget {
 }
 
 class _CheckUpdateButtonState extends State<CheckUpdateButton> {
-  final String currentVersion = 'v2.6.3';
+  final String currentVersion = 'v2.6.4';
   final String githubRepo = 'PranshulGG/WeatherMaster';
   bool isChecking = false;
 

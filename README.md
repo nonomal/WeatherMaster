@@ -31,27 +31,27 @@
    <a href="https://apt.izzysoft.de/fdroid/index/apk/com.pranshulgg.weather_master_app"><img alt="GitHub" src="preview/download_Btn.png" height="80"/></a></div>
 <br>
 
-![app_thumbnail](preview/thumbnail_mat.png)
-
+![app_thumbnail](preview/new_thumbnail.png)
 
 # 👁️ Screenshots
 
 <div align="center">
-<img src="preview/4.png"  width="250">
-<img src="preview/1.png"  width="250">
-<img src="preview/3.png"  width="250">
+<img src="preview/prev_2.png"  width="250">
+<img src="preview/prev_3.png"  width="250">
+<img src="preview/prev_4.png"  width="250">
 <img src="preview/2.png"  width="250">
-<img src="preview/5.png"  width="250">
+<img src="preview/prev_5.png"  width="250">
+<img src="preview/prev_1.png"  width="250">
 
 </div>
 
 <br>
 
 # 🌐 Translate the app on [Crowdin](https://crowdin.com/project/weathermaster/invite?h=448278a9b1370f3c10d4336a091dae792286917)
-- **Feel free to open an issue if you want to request a language** 
+
+- **Feel free to open an issue if you want to request a language**
 
 <a href="https://crowdin.com/project/weathermaster/invite?h=448278a9b1370f3c10d4336a091dae792286917"><img src="https://badges.crowdin.net/weathermaster/localized.svg" width="200"> </a>
-
 
 # ✨ Features:
 
@@ -85,6 +85,7 @@
 - **⚙️ Customizable Layout:** Arrange and customize the app’s layout to display weather features in your preferred order and style. Example: Saved locations, condition widgets etc.
 
 # 🌞 Weather providers:
+
 - [**open-meteo**](https://open-meteo.com)
 - [**Met norway**](https://www.met.no/en)
 - [**WeatherApi**](https://www.weatherapi.com/)
@@ -101,20 +102,16 @@
 - [**KNMI**](https://www.knmi.nl)
 - [**DMI**](https://www.dmi.dk/en/)
 
-
-
 # 🛠️ Built With:
-
 
 - <strong>Flutter: </stronge>Completely rebuilt from web-based JS to native Flutter.
 
 - <strong>Weather icons</strong>: <a href="https://gitlab.com/bignutty/google-weather-icons">Google weather icons
 
 # ✉️ Contact
+
 For any questions or feedback, feel free to open an issue on GitHub or contact pranshul.devmain@gmail.com
 
-
 # ©️ License
+
 This project is licensed under the GPL-3.0 license. See the `LICENSE` file for details.
-
-
